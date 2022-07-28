@@ -63,7 +63,7 @@ def transform_uploaded_file(dir_path_for_all):
         print("\n________\n")
 
 # ------------------load workobook with xlwings module --------------------
-        app = xw.App(visible=False)
+        
         workbook = xw.Book(dir_path_for_all+"/"+eachExcel_file)
         sheet = workbook.sheets['SA-6239-ENG']
 

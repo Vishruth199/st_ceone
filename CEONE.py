@@ -32,7 +32,6 @@ def upload_multiple_file(uploaded_file, multiple_dir_path):
 
 
 def transform_uploaded_file(dir_path_for_all):
-    pythoncom.CoInitialize()
 
     excel_file_list = []
     for path in os.listdir(dir_path_for_all):
